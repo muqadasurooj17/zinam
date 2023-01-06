@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+}
+.logo{
+  position: relative;
+    margin-right: 0px;
+    width: 60px;
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  margin-right: 10px;
+}
+.logo img{
+  width: 70px;
+  height: 50px;
+}
+
+.headerbox{
+  height:500px;
+  background-color: #130739;
+  width: 100%;
+padding-bottom: 30%;}
+
+.btn-style-1{
+  background: aqua;
+  border: 1px solid black;
+  color: black;
+  align-items: center;
+height: 40px;
+font-weight: normal;
+  width: 100px;
+}
+
+/* horizontal threline nav bar */
+
+.navbar {
+width: 40px;
+display: block;
+margin-left: 90%;
+margin-bottom: 0px;
+margin-right: 0px;
+
+}
+
+.navbar div {
+height: 5px !important;
+background:white;
+border-radius: 25px;
+margin: 3px 0px 0px 0px;
+}
+.headpara{
+font-size: 20px;
+color: white;}
+
+.texthead{
+position: relative;
+text-align: center;
+font-weight: bolder;
+font-size: 60px;
+color: white;
+padding-bottom: 5px;
+margin-top: 10%;
+} 
+
+
+.column {
+  position: relative;
+  margin-inline-start: 60px;
+  width: 26%;
+  display: inline-block;
+  background-color:rgb(250, 249, 249);
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 356px; /* Should be removed. Only for demonstration */
+}
+.imgcomp img{
+  width: 286px; 
+  height: 200px;
+}
+/* 
+/* Clear floats after the columns */
+.row:after {
+  position: relative;
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.row{
+  position: relative;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.prorow{  
+position: relative;
+margin-left: 5%;
+}
+.prorow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .procolumn {
+    width: 50%;
+  }
+}
+
+.procolumn{
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-inline-start: 40px;
+  width: 38%;
+  background-color:rgb(250, 249, 249);
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+.procolumn img{
+  width: 409px;
+  height: 498px;
+}
+
+.company{
+  position: relative;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+    .textcomp{    
+      position: relative;
+      margin-bottom: 3px;
+      color:#281370;
+font-weight: bolder;
+font-size: 50px;
+padding-bottom: 5px;
+    
+    }
+    .comppara1{
+      margin-bottom: 30px;
+    }
+.projectpara{
+  position: relative;
+ margin-inline-start: 50px;
+ text-transform: capitalize;
+ font-weight: bolder;
+ padding-bottom: 10px;
+ color: #281370;
+  word-spacing: 30px;
+}
+.clientimg{
+  align-items: center;
+  margin-inline-start: -40px;
+}
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(26, 153, 216);
+  justify-content: space-between;
+  max-width: 1800px;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.secondfooter{
+  background-color:#130739;
+  color: white;
+  margin-top:0px ;
+  align-items: center;
+  text-align: center;
+}
+.box__footer{
+  display: inline-block;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  height: fit-content;
+}
+.box__footer h2{
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+.box__footer p{
+  color: #fff;
+}
+.box__footer a{
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+.box__footer a:hover{
+  opacity: 0.8;
+}
+.box__footer a .fab{
+  font-size: 20px;
+  color: white;
+}
